@@ -2,9 +2,9 @@ package com.example;
 
 import com.birdbrain.Finch;
 
-public class FinchDemo {
+public class FinchNavigatorRunner {
     public static void main(String[] args) {
-        Finch myFinch = new Finch();
+        Finch myFinch = new FinchNavigator();
 
         myFinch.playNote(60,0.5);
 
